@@ -1,0 +1,35 @@
+@font-face {
+    font-family:fuente_inter;
+    src: url(../fuente/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+    
+.caja1 {
+    border: 3px solid #abd519;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 22px;
+    /*sombras a la caja
+    box-shadow: 10px 12px 10px orange;*/
+    /*sombras a la caja en megativos
+     box-shadow: -10px -12px 10px orange;*/
+    /*sombras a la caja dentro de la caja
+    box-shadow: -10px -12px 10px orange inset;*/
+    box-shadow: 0 0 20px rgb(158, 240, 8) inset;
+}
+
+.caja1 h1 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    /*Sombra al texto*/
+    /*text-shadow: 6px 10px 4px gray;*/
+    /*Sombra al texto negativos*/
+    /*text-shadow: -6px -10px 4px gray;*/
+    text-shadow: 0 0 10px gray;
+}
+
+.caja1 p {
+    text-align: justify;
+    font-family:fuente_inter;
+}
